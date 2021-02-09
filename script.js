@@ -23,7 +23,7 @@ const addToDo = (todo,id,done,trash) =>{
     const value = `
     <li>
         <i data-feather="check" class="icon ${DONE}" id=${id} job="complete"></i>
-        <p class="text ${CROSSED}">${todo}</p>
+        <div class="text-wrap"><p class="text${CROSSED}">${todo}</p></div>
         <i data-feather="trash" class="icon remove" id=${id} job="delete"></i>
                            
     </li>       

@@ -208,10 +208,14 @@ input:focus{
     
 }
 
+.text-wrap{
+    width: 200px;
+}
 
-li p{
+.text{
     display:inline-block;
-    color:rgb(51, 51, 51)
+    color:rgb(51, 51, 51);
+    
 }
 
 .line-through{
